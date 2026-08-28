@@ -1,4 +1,6 @@
-print(1+998001)
-print(1-1)
-print(1*998001)
-print(1/998001)
+num1 = 12345
+num2 = 9876
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / num2)
