@@ -3,15 +3,15 @@ num2 = float(input("enter the second number: "))
 operation = input("enter the operation (+, -, *, /): ")
 
 if operation == '+':
-    print(num1 + num2)
+    print("the result is:", num1 + num2)
 elif operation == '-':
-    print(num1 - num2)
+    print("the result is:", num1 - num2)
 elif operation == '*':
-    print(num1 * num2)
+    print("the result is:", num1 * num2)
 elif operation == '/':
     if num2 == 0:
         print("error division by zero not allowed")
     else:
-        print(num1 / num2)
+        print("the result is:", num1 / num2)
 else:
     print("Invalid operation")
